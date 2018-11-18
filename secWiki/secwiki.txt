@@ -1,0 +1,21 @@
+sec-Wiki
+1: web中各种命令注入的检测和利用一2016-09-03
+https://www.sec-wiki.com/news/8236
+2: 独立挖了hackerone 50W美金的安全研究人员的总结2016-09-03
+https://www.sec-wiki.com/news/8235
+3: NSO使用的iOS/macOS xnu kernel UAF漏洞分析2016-09-03
+https://www.sec-wiki.com/news/8234
+4: 感染百万物联网设备的BASHLITE家族恶意代码简要分析2016-09-03
+https://www.sec-wiki.com/news/8233
+5: 证书检测二三事2016-09-02
+https://www.sec-wiki.com/news/8232
+6: Python中编码二三事2016-09-02
+https://www.sec-wiki.com/news/8231
+7: Breaking  XSS WAF Evasion CheatSheet2016-09-02
+https://www.sec-wiki.com/news/8230
+8: Using Chrome’s web-custom-data UTI to inject a stored XSS in Slack2016-09-02
+https://www.sec-wiki.com/news/8229
+9: IoT Home Router Botnet Leveraged in Large DDoS Attack2016-09-02
+https://www.sec-wiki.com/news/8227
+10: CylancePROTECT® vs. FSociety Ransomware2016-09-02
+https://www.sec-wiki.com/news/8226

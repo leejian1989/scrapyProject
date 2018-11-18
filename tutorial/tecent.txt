@@ -1,0 +1,41 @@
+腾讯安全应急响应中心
+1: phpMyAdmin SQL注入漏洞(CVE-2016-5703)分析
+phpMyAdmin是一个web端通用MySQL管理工具，上述版本在central_columns.lib.php文件里的db参数存在sql注入漏洞，攻击者利用此漏洞可以获取数据库中敏感信息,进一步攻击甚至可以执行任意命令
+https://security.tencent.com/index.php/blog/msg/108
+
+2: 驱散前端安全梦魇——DOMXSS典型场景分析与修复指南
+在防御和消灭DOM XSS漏洞的斗争一线，希望Web前端工程师们树立起安全的开发意识，与广大运维安全人员携手，将DOM XSS漏洞消灭在萌芽之中。驱散前端安全梦魇，保护用户安全。
+https://security.tencent.com/index.php/blog/msg/107
+
+3: Hack Redis via Python urllib HTTP Header Injection
+利用python urllib http头注入对内网未授权redis服务进行getshell的实践
+https://security.tencent.com/index.php/blog/msg/106
+
+4: 浅谈iOS应用安全自动化审计
+Android应用的审计技术已经于相对成熟，而iOS应用审计系统在国内还是比较欠缺的。我们专门研发了一款针对iOS应用的自动化审计系统。除日常的应用审计外，也是希望它能够在安全应急上起到辅助的作用。本文主要是对这部分技术进行一些粗浅的探索。
+https://security.tencent.com/index.php/blog/msg/105
+
+5: 利用 Java Binary Webshell 对抗静态检测
+在大型互联网企业生产环境中，Webshell检测无疑是反入侵的一大重点工作，其中静态检测又是常用手段之一。深入分析各类web容器，我们发现静态检测存在各种先天的缺陷。本文介绍一种利用Java Binary Webshell对抗静态检测的方法，欢迎大家拍砖。
+https://security.tencent.com/index.php/blog/msg/104
+
+6: 315晚会报道的无人机是怎么被劫持的？
+你一定有关注到央视315晚会上的高大上的无人机劫持演示吧。是的，无人机是可以被劫持的，那么这次的劫持无人机技术上是如何实现呢？飞机汽车坦克可以被劫持吗？同类的智能设备有没有类似问题？……且听315晚会的无人机劫持演示者、腾讯安全专家Gmxp娓娓道来。
+https://security.tencent.com/index.php/blog/msg/103
+
+7: Squid远程拒绝服务漏洞分析
+Squid Cache是使用十分广泛的HTTP缓存代理服务器。近日，Squid官方更新了多个远程拒绝服务漏洞，只需一个HTTP请求即可打挂Squid服务，本文主要该对该漏洞进行了分析。
+https://security.tencent.com/index.php/blog/msg/102
+
+8: 浅谈权限滥用攻击及防御
+权限滥用漏洞一般归类于逻辑问题，是指服务端功能开放过多或权限限制不严格，导致攻击者可以通过直接或间接调用的方式达到攻击效果。本文主要结合已知的平台漏洞进行总结和阐述。
+https://security.tencent.com/index.php/blog/msg/101
+
+9: 自研之路：腾讯漏洞扫描系统的十年历程
+腾讯的自研漏洞检测系统由来已久，迄今为止正好十年，这十年建设、三代变迁有怎样心得与教训？分享这篇文章，希望能够给大家带来一些启发。
+https://security.tencent.com/index.php/blog/msg/100
+
+10: 化险为夷：QQ音乐“虫洞”历险记
+客户端引入第三方库是个常见场景，由此而引入的安全风险该如何控制。现在让我们借这个影响超过500个APP的某第三方库的“虫洞”漏洞共同反思这个典型场景的处置案例，进而探讨如何规避这类安全风险
+https://security.tencent.com/index.php/blog/msg/99
+
