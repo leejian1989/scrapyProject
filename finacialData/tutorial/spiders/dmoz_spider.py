@@ -15,7 +15,7 @@ class DomzSpider(scrapy.Spider):
         for sel in response.xpath('//div[@class="result_wrap"]/ul'):
             #print  sel.extract()
             item=DmozItem()
-            item['title'] = sel.xpath('li/a').extract()
+            item['title'] = sel.xpath('li/a/@title').extract()
             #baidu title: div[3]/div/h3/a
             #print item['title']
             item['link'] = sel.xpath('li/a/@href').extract()

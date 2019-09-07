@@ -45,9 +45,10 @@ class TutorialPipeline(object):
                 #info=info.replace('</em>','')
                 print 'title-------',item['title'][i],len(item['title'][i]),len(item['link'][i])
 
-                title=t.search(item['title'][i]).group(1)
-                title=title.replace('<em>','')
-                title=title.replace('</em>','')
+                #title=t.search(item['title'][i]).group(1)
+                #title=title.replace('<em>','')
+                #title=title.replace('</em>','')
+                title=item['title'][i]
                 '''fuck off 360 advertisement'''
                 if len(item['link'][i])<200:
                     self.file.write(str(i + 1) + ': ')
@@ -60,8 +61,8 @@ class TutorialPipeline(object):
                         'link': str(item['link'][i].strip()),
                         'title_hash': hash(str(title.strip().encode("utf-8")))
                     }
-                    query = self.dbpool.runInteraction(self._conditional_insert, dict_item)
-                    query.addErrback(self._handle_error, item, spider)
+                    #query = self.dbpool.runInteraction(self._conditional_insert, dict_item)
+                    #query.addErrback(self._handle_error, item, spider)
                     #continue
 
                 #self.file.write(str(info.strip().encode("utf-8"))+' ')
